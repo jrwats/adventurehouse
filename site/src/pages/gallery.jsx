@@ -4,13 +4,17 @@ import { graphql } from 'gatsby';
 import { Box } from 'rebass';
 import Header from '../components/Header';
 import Thumbnail from '../components/Thumbnail';
+import { getImage } from 'gatsby-plugin-image';
 
 export const thumbFluid = graphql`
   fragment thumbFluid on File {
     childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-      }
+      gatsbyImageData(
+        layout: FULL_WIDTH
+        width: 200
+        placeholder: BLURRED
+        formats: [AUTO, WEBP, JPG]
+      )
     }
   }
 `;
@@ -44,11 +48,12 @@ const Gallery = ({ data }) => {
           gridTemplateColumns: 'repeat(auto-fit, minmax(128px, 1fr))',
         }}
       >
-        {data.allFile.edges.map((img) => (
+        {data.allFile.edges.map((data) => (
           <Thumbnail
-            key={img.node.id}
+            key={data.node.id}
             width={200}
-            fluid={img.node.childImageSharp.fluid}
+            alt=""
+            image={getImage(data.node)}
           />
         ))}
       </Box>

@@ -11,27 +11,31 @@ const Info = () => {
         <div className="pgph">
           <h4>Dishes</h4>
           <div className="pgph">
-            {`\u{2022}`} Place all dirty dishes in the dishwasher and start cleaning cycle
+            {`\u{2022}`} Place all dirty dishes in the dishwasher and start
+            cleaning cycle
           </div>
 
           <h4>Bedsheets</h4>
           <div className="pgph">
-            {`\u{2022}`} Strip used linens and leave on top of bed for cleaning staff
+            {`\u{2022}`} Strip used linens and leave on top of bed for cleaning
+            staff
           </div>
 
           <h4>Outdoor couch & Hammock</h4>
           <div className="pgph">
-            {`\u{2022}`} Place couch pillows and hammocks back in storage bin (south porch)
+            {`\u{2022}`} Place couch pillows and hammocks back in storage bin
+            (south porch)
           </div>
 
           <h4>Hot tub</h4>
           <div className="pgph">
-             {`\u{2022}`} Ensure hot tub cover straps are securely closed
+            {`\u{2022}`} Ensure hot tub cover straps are securely closed
           </div>
 
           <h4>Lock up</h4>
           <div className="pgph">
-            {`\u{2022}`} Ensure all exterior doors are locked (lounge/TV room & laundry room)
+            {`\u{2022}`} Ensure all exterior doors are locked (lounge/TV room &
+            laundry room)
             <br />
             {`\u{2022}`} Lock front door by pressing the "August" logo on keypad
           </div>
@@ -39,9 +43,7 @@ const Info = () => {
 
         <p />
         <h4>Pets</h4>
-          <div className="pgph">
-          {`\u{2022}`} There is a strict no-pet policy
-        </div>
+        <div className="pgph">{`\u{2022}`} There is a strict no-pet policy</div>
 
         <p />
 
@@ -56,7 +58,8 @@ const Info = () => {
 
         <h4>Trash</h4>
         <div className="pgph">
-          {`\u{2022}`} Kitchen: garbage and recycle under the sink (to the right)
+          {`\u{2022}`} Kitchen: garbage and recycle under the sink (to the
+          right)
           <br />
           {`\u{2022}`} Large garbage can in the laundry room
         </div>
@@ -67,7 +70,8 @@ const Info = () => {
         <div className="pgph">
           {`\u{2022}`} Fire extinguisher located in laundry room
           <br />
-          {`\u{2022}`} First aid kits are in top-drawers of entry buffet at bottom of stairs
+          {`\u{2022}`} First aid kits are in top-drawers of entry buffet at
+          bottom of stairs
         </div>
 
         <p />
@@ -97,7 +101,7 @@ const Info = () => {
           {`\u{2022}`} Colder: Turn smaller center knob clockwise
           <br />
           {`\u{2022}`} Hotter: Turn smaller center knob counter-clockwise
-          <div style={{paddingLeft: "1em"}}>
+          <div style={{ paddingLeft: '1em' }}>
             {`\u{2022}`} Even Hotter: Push small center knob in (towards wall)
             <br />
             {`\u{2022}`} Continue turning counter-clockwise
@@ -115,18 +119,21 @@ const Info = () => {
 
         <h4>Cooking</h4>
         <div className="pgph">
-          {`\u{2022}`} Stovetop is induction. Use the provided stainless steel cookware
+          {`\u{2022}`} Stovetop is induction. Use the provided stainless steel
+          cookware
         </div>
         <p />
 
         <h4>Outdoor Couch & Hammocks</h4>
         <div className="pgph">
-          {`\u{2022}`} Pillows and hammocks are located in storage bin on south porch
+          {`\u{2022}`} Pillows and hammocks are located in storage bin on south
+          porch
           <br />
-          {`\u{2022}`} There is a hammock hanging in its case on a tree south (water-side) of the house as well
+          {`\u{2022}`} There is a hammock hanging in its case on a tree south
+          (water-side) of the house as well
         </div>
       </div>
     </div>
   );
-}
+};
 export default Info;

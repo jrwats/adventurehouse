@@ -9,9 +9,8 @@ module.exports = {
     language: 'en',
   },
   plugins: [
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
-    // 'gatsby-plugin-react-helmet',
-    // 'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     { resolve: 'gatsby-source-filesystem', options: { path: './src/data/' } },
   ],

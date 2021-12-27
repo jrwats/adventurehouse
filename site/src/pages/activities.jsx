@@ -6,8 +6,12 @@ const Activities = () => {
   return (
     <div>
       <Header />
-      <div><Link to="/hikes">Hikes</Link></div>
-      <div><Link to="/dining">Dining</Link></div>
+      <div>
+        <Link to="/hikes">Hikes</Link>
+      </div>
+      <div>
+        <Link to="/dining">Dining</Link>
+      </div>
     </div>
   );
 };
