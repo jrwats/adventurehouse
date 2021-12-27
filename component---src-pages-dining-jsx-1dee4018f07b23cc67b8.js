@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{O279:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),i=t.n(a),u=t("+3Ox");e.default=function(){return i.a.createElement("div",null,i.a.createElement(u.a,null),"Dining")}}}]);
+//# sourceMappingURL=component---src-pages-dining-jsx-1dee4018f07b23cc67b8.js.map
