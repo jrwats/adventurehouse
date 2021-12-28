@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkadventure_house=self.webpackChunkadventure_house||[]).push([[230],{4199:function(e,u,n){n.r(u);var t=n(7294),r=n(3076);u.default=function(){return t.createElement(r.Z,null)}}}]);
+//# sourceMappingURL=component---src-pages-index-jsx-2bfd9ec407d8fb4ee74f.js.map

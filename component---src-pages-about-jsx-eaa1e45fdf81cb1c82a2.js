@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{bT9l:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),u=t("+3Ox");n.default=function(){return r.a.createElement("div",null,r.a.createElement(u.a,null),"Lorem ipsum dorem")}}}]);
+//# sourceMappingURL=component---src-pages-about-jsx-eaa1e45fdf81cb1c82a2.js.map

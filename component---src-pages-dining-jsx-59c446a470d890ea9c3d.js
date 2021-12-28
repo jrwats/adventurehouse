@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkadventure_house=self.webpackChunkadventure_house||[]).push([[395],{3537:function(e,n,u){u.r(n);var t=u(7294),l=u(3076);n.default=function(){return t.createElement("div",null,t.createElement(l.Z,null),"Dining")}}}]);
+//# sourceMappingURL=component---src-pages-dining-jsx-59c446a470d890ea9c3d.js.map
